@@ -28,7 +28,7 @@ const App = () => {
           text +
           '',
         temperature: 0.5,
-        max_tokens: 60,
+        max_tokens: 1000,
         top_p: 1.0,
         frequency_penalty: 0.8,
         presence_penalty: 0.0,
