@@ -14,7 +14,7 @@ import {
 const KeywordsModal = ({keywords,loading,isOpen,closeModal}) => {
   return (
       <>
-          <Modal isOpen={isOpen} onClose={closeModal} >
+          <Modal isOpen={isOpen} onClose={closeModal}>
                   
               <ModalOverlay />
               <ModalContent>
@@ -32,7 +32,7 @@ const KeywordsModal = ({keywords,loading,isOpen,closeModal}) => {
                       )}
                   </ModalBody>
                   <ModalFooter>
-                      <Button colorScheme='blue' mr={3} onClick={closeModal}>
+                      <Button colorScheme='blue.200' mr={3} onClick={closeModal}>
                           Close
                       </Button>
                   </ModalFooter>

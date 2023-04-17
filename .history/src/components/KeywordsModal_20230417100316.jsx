@@ -14,7 +14,7 @@ import {
 const KeywordsModal = ({keywords,loading,isOpen,closeModal}) => {
   return (
       <>
-          <Modal isOpen={isOpen} onClose={closeModal} >
+          <Modal isOpen={isOpen} onClose={closeModal}>
                   
               <ModalOverlay />
               <ModalContent>
@@ -24,7 +24,7 @@ const KeywordsModal = ({keywords,loading,isOpen,closeModal}) => {
                   <ModalCloseButton />
                   <ModalBody display='flex' alignItems='center' justifyContent='center'>
                       {loading ? (
-                          <CircularProgress isIndeterminate color='blue.300' />
+                          <CircularProgress isIndeterminate color='blue.100' />
                       ) : (
                           <Text>
                               {keywords}

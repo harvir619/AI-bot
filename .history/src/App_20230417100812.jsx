@@ -42,7 +42,7 @@ const App = () => {
       );
       const json = await response.json();
       console.log(json.choices[0].text.trim());
-      setKeywords(json.choices[0].text.trim());
+      setKeywords("json.choices[0].text.trim()");
       setLoading(false);
     } catch (error) {
       console.error(error);

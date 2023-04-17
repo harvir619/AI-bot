@@ -23,7 +23,7 @@ const TextInput = ({ extractKeywords }) => {
   return (
       <>
           <Textarea
-              bg="blue.300"
+              bg="blue.400"
               color='white'
               padding={4}
               marginTop={6}
@@ -37,7 +37,7 @@ const TextInput = ({ extractKeywords }) => {
               color='white'
               marginTop={4}
               width='100%'
-              _hover={{ bg: 'blue.700' }}
+              _hover={{ bg: 'blue.100' }}
               onClick={submitText}
           >
               Ask

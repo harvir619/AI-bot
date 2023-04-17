@@ -14,7 +14,7 @@ import {
 const KeywordsModal = ({keywords,loading,isOpen,closeModal}) => {
   return (
       <>
-          <Modal isOpen={isOpen} onClose={closeModal} >
+          <Modal isOpen={isOpen} onClose={closeModal}>
                   
               <ModalOverlay />
               <ModalContent>

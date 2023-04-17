@@ -11,7 +11,7 @@ const Header = () => {
                 Ask anything you want
             </Heading>
             <Text fontSize={25} textAlign='center'>
-                Paste in your thought below and we'll settle it for you.
+                Paste in your text below and we'll extract the keywords for you
             </Text>
             
       </>
