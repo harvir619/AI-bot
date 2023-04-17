@@ -17,12 +17,7 @@ const KeywordsModal = ({keywords,loading,isOpen,closeModal}) => {
           <Modal isOpen={isOpen} onClose={closeModal} >
                   
               <ModalOverlay />
-              <ModalContent
-                maxW="80vw"
-                maxH="80vh"
-                overflow="hidden"
-                textAlign="center"
-              >
+              <ModalContent size="4xl">
                   <ModalHeader>
                       AI Response
                   </ModalHeader>

@@ -14,27 +14,22 @@ import {
 const KeywordsModal = ({keywords,loading,isOpen,closeModal}) => {
   return (
       <>
-          <Modal isOpen={isOpen} onClose={closeModal} >
+          <Modal isOpen={isOpen} onClose={closeModal} size="xl" >
                   
               <ModalOverlay />
               <ModalContent
-                maxW="80vw"
-                maxH="80vh"
-                overflow="hidden"
-                textAlign="center"
-              >
+                  maxW="80vw"
+                  maxH="80vh"
+                  overflow="hidden"
+                  textAlign="center">
                   <ModalHeader>
                       AI Response
                   </ModalHeader>
                   <ModalCloseButton />
-                  <ModalBody display='flex' alignItems='center' justifyContent='center'>
-                      {loading ? (
-                          <CircularProgress isIndeterminate color='blue.300' />
-                      ) : (
-                          <Text>
-                              {keywords}
-                          </Text>
-                      )}
+                  <ModalBody display='flex' alignItems='center' justifyContent='center' >
+                      asdsadsadsadsadsadsadssssssssssssssssssssasdsadsadsadsadsadsadssssssssssssssssssssasdsadsadsadsadsadsadssssssssssssssssssssasdsadsadsadsadsadsadssssssssssssssssssssasdsadsadsadsadsadsadssssssssssssssssssss
+                      asdsadsadsadsadsadsadssssssssssssssssssssasdsadsadsadsadsadsadssssssssssssssssssssasdsadsadsadsadsadsadssssssssssssssssssssasdsadsadsadsadsadsadssssssssssssssssssss
+                      asdsadsadsadsadsadsadssssssssssssssssssss
                   </ModalBody>
                   <ModalFooter>
                       <Button colorScheme='blue' mr={3} onClick={closeModal}>

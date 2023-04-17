@@ -17,24 +17,13 @@ const KeywordsModal = ({keywords,loading,isOpen,closeModal}) => {
           <Modal isOpen={isOpen} onClose={closeModal} >
                   
               <ModalOverlay />
-              <ModalContent
-                maxW="80vw"
-                maxH="80vh"
-                overflow="hidden"
-                textAlign="center"
-              >
+              <ModalContent size="4xl">
                   <ModalHeader>
                       AI Response
                   </ModalHeader>
                   <ModalCloseButton />
                   <ModalBody display='flex' alignItems='center' justifyContent='center'>
-                      {loading ? (
-                          <CircularProgress isIndeterminate color='blue.300' />
-                      ) : (
-                          <Text>
-                              {keywords}
-                          </Text>
-                      )}
+                     asdsadsadsadsadsadsadssssssssssssssssssss
                   </ModalBody>
                   <ModalFooter>
                       <Button colorScheme='blue' mr={3} onClick={closeModal}>
